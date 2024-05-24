@@ -1,0 +1,39 @@
+.slider {
+  margin-top: 100px;
+  text-align: center;
+}
+.slider h1 {
+  font-size: 45px;
+  padding: 30px 0px;
+  font-family: "Roboto", sans-serif;
+}
+.slick-next {
+  width: 30px; /* Adjust as needed */
+  height: 30px; /* Adjust as needed */
+  color: black;
+  background-color: black;
+  border-radius: 50%;
+  right: -50px;
+  position: absolute;
+}
+.slick-prev {
+  width: 30px; /* Adjust as needed */
+  height: 30px; /* Adjust as needed */
+  color: black;
+  background-color: black;
+  border-radius: 50%;
+  left: -40px;
+  position: absolute;
+}
+
+.slick-slide > div {
+  margin: 10px;
+}
+
+/* the parent */
+.slick-list {
+  margin: 0 -10px;
+}
+.slider .slider-image img {
+  width: 100%;
+}

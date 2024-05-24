@@ -1,0 +1,129 @@
+.main-sign {
+  margin-top: 100px;
+  width: 100%;
+  background-color: gainsboro;
+  padding: 50px 0px;
+}
+.card .card-image img {
+  width: 70px;
+  display: flex;
+  height: 70px;
+  border: 1px solid gray;
+  object-fit: cover;
+  padding: 7px;
+  margin: 5px;
+  box-shadow: 10px 10px 20px 1px rgb(205, 205, 205);
+}
+
+.card-icon {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card .card-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  position: relative;
+  align-items: center;
+}
+.card .card-top .ban {
+  font-size: 30px;
+  color: red;
+}
+.card .card-top .top-ban {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card .card-top .top-ban p {
+  font-size: 15px;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+.card .list-group .list-group-item span {
+  position: absolute;
+  right: 2px;
+}
+.card .list-group .list-group-item img {
+  width: 25px;
+  margin: 0px 10px;
+  height: 25px;
+}
+
+/* =========================================== */
+.slide-icon img {
+  width: 100px;
+  height: 100px;
+}
+.slide-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.text-area input {
+  background-color: white;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 50px;
+}
+.text-area {
+  margin-top: 5px;
+}
+.sign-button {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.sign-button button {
+  padding: 5px 20px;
+  border: none;
+  color: white;
+  background-color: rgb(47, 255, 54);
+  border-radius: 10px;
+}
+.sign-second-btn {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.sign-second-btn button {
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  background-color: rgb(47, 54, 255);
+  border-radius: 10px;
+}
+/* =================================================== */
+.change-icon img {
+  width: 100px;
+  height: 100px;
+}
+.change-icon {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.change-text {
+  width: 100%;
+  background-color: red;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  height: 40%;
+}
+.change-text p {
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}

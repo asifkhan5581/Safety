@@ -1,0 +1,123 @@
+.main-nav {
+  width: 100%;
+  box-shadow: 5px 10px 20px 1px rgb(184, 184, 184);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.main-nav .logo {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-nav .logo img {
+  width: 100%;
+}
+.main-nav nav {
+  display: grid;
+  grid-template-columns: 2fr 7fr 3fr;
+  margin: 10px auto;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+.main-nav nav .list-item {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-self: center;
+}
+.main-nav nav .list-item li {
+  margin: 0 6px;
+  font-size: 15px;
+  padding: 8px;
+}
+.main-nav nav .list-item li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+.main-nav nav .btn button {
+  padding: 5px 30px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 10px;
+  background-color: rgb(2, 243, 2);
+}
+.main-nav nav .btn button a {
+  text-decoration: none;
+  color: white;
+}
+.main-nav nav .btn button a span {
+  padding: 0 10px;
+  color: darkblue;
+  font-size: 20px;
+}
+.menu-icon span {
+  color: black;
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+.navback {
+  background-color: darkcyan;
+}
+.menu-back {
+  background-color: aliceblue;
+  border-bottom: 1px solid gray;
+}
+@media screen and (max-width: 1080px) {
+  .main-nav nav .nav-btn {
+    display: none;
+  }
+  .main-navbar nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+    position: absolute;
+  }
+  .main-nav nav .list-item li {
+    margin: 5px;
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 779px) {
+  .menu-icon span {
+    display: block;
+    position: absolute;
+    right: 30px;
+  }
+
+  .list-item {
+    position: absolute;
+    display: block;
+    background-color: white;
+    justify-content: flex-start;
+    right: 0;
+    flex-direction: column;
+    height: 50vh;
+    padding: 0;
+    top: 90px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 3;
+    width: 100%;
+    transform: 0.5s ease;
+  }
+
+  .active {
+    visibility: visible;
+    opacity: 1;
+    transition: all 2s linear;
+    transform-origin: top;
+    text-align: left;
+  }
+}
